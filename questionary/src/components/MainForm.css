@@ -1,0 +1,82 @@
+
+
+
+
+
+.Title{
+display: block;
+align-items: center;
+margin: auto;
+margin-top: 10px;
+border-radius: 5px;
+width: 300px;
+height: 30px;
+}
+
+.selectOrigin{
+  width: 50%;
+  margin-left: 25%;
+}
+
+.InputPost{
+display: flex;
+padding-top: 50px;
+margin: 0 auto;
+
+}
+.labelQuestion{
+ display: block;
+ text-align:center;
+align-items: center;
+margin: auto;
+margin-bottom: 1em;
+margin-top: 12%;
+
+}
+
+.InputPostDesc{
+width:500px;
+height:100px;
+}
+
+.Submitform{
+
+ display: block;
+ text-align:center;
+ align-items: center;
+ margin: auto;
+ margin-top: 40px;
+ margin-bottom: 3em;
+}
+
+.CategorySelection{
+  display: block;
+align-items: center;
+margin: auto;
+margin-top: 10px;
+border-radius: 5px;
+width: 100px;
+height: 30px;
+}
+
+.containerGrid {
+  display: flex;
+ justify-content:center;
+ margin: auto;
+  grid-template-columns: 3.5em 3.5em 3.5em 3.5em 3.5em 3.5em 3.5em 3.5em 3.5em 3.5em;
+}
+.containerGrid div {
+  
+  width: 3em;
+  height: 3em;
+  padding: 0%;
+  border: 0.1em solid;
+  border-radius: 0.1em;
+  border-color: black;
+}
+
+.numberQuestion {
+  text-decoration: none;
+  text-decoration-color: black;
+  color: black;
+}
